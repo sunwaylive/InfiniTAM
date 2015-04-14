@@ -17,13 +17,13 @@ try
 	const char *imagesource_part2 = NULL;
 
 	int arg = 1;
-	do {
+	/*do {
 		if (argv[arg] != NULL) calibFile = argv[arg]; else break;
 		++arg;
 		if (argv[arg] != NULL) imagesource_part1 = argv[arg]; else break;
 		++arg;
 		if (argv[arg] != NULL) imagesource_part2 = argv[arg]; else break;
-	} while (false);
+	} while (false);*/
 
 	if (arg == 1) {
 		printf("usage: %s [<calibfile> [<imagesource>] ]\n"
